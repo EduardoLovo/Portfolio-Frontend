@@ -1,0 +1,36 @@
+.bodyProjetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    overflow-x: hidden
+}
+
+.cardProjeto {
+    width: 60vw;
+    background-color: rgba(0, 0, 0, 0.422);
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.cardProjeto img {
+    width: 40vw;
+    border-radius: 8px;
+}
+
+.cardProjeto a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(0, 128, 255);
+}
+
+.imgLinks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ferramentas {
+    margin: 2rem 3rem;
+}

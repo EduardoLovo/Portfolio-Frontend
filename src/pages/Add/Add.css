@@ -1,0 +1,32 @@
+.bodyAdd {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bodyAdd h1 {
+    padding: 2rem;
+}
+
+.formAdd {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.445);
+    padding: 3rem 2rem;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.bodyAdd input {
+    outline: none;
+    border: none;
+    width: 70%;
+    padding: .5rem;
+    margin: .5rem auto 1rem auto;
+}
+
+.bodyAdd .btnEnviar {
+    width: 7rem;
+    height: 3rem;
+    margin: 1rem auto;
+    cursor: pointer;
+}

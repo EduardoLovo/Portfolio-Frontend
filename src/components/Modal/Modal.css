@@ -1,0 +1,51 @@
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #00000080;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: auto;
+}
+
+.bodyModal {
+    width: 70vw;
+    height: 85vh;
+    position: relative;
+    background-color: #202024;
+}
+
+.tituloModal {
+    display: flex;
+    width: 100%;
+
+}
+
+.tituloModal h2 {
+    width: 80%;
+}
+
+.tituloModal button {
+    background: none;
+    border: none;
+    color: rgb(33, 128, 52);
+}
+
+.divImagemModal {
+    display: flex;
+    justify-content: center;
+}
+
+#imagemModal {
+    height: 65vh;
+    width: 60vw;
+    margin-bottom: 2rem;
+}
+
+.bi {
+    font-size: 3rem;
+}

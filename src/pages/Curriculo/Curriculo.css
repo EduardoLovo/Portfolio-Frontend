@@ -1,0 +1,9 @@
+.curriculo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.curriculo img {
+    padding-bottom: 2rem;
+}

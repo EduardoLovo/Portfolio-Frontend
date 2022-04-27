@@ -1,0 +1,33 @@
+.navBar {
+    width: 20vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 1);
+    position: fixed;
+    color: rgb(33, 128, 52);
+    font-family: 'Roboto', sans-serif;
+}
+
+.navBar h2 {
+    padding: 2rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links p {
+    color: rgb(33, 128, 52);
+    padding: 1rem;
+
+}
+
+.link {
+    text-decoration: none;
+    font-size: 1.5vw;
+    transition: all .2s ease-in-out;
+}
+
+.link:hover {
+    background-color: rgba(75, 75, 75, 0.374);
+}

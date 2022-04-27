@@ -1,0 +1,48 @@
+.bodyAdm {
+    text-align: center;
+}
+
+.bodyAdm h1 {
+    padding: 2rem;
+}
+
+
+/* --------------------------------- */
+
+.logado {
+    background-color: rgba(0, 0, 0, 0.445);
+    width: 60%;
+    padding: 4rem 2rem;
+    margin: 0 auto;
+}
+
+.logado button {
+    width: 7rem;
+    height: 4rem;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: .9rem;
+    border: none;
+    background-color: rgba(71, 139, 8, 0.844);
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.logado button:hover {
+    opacity: .9;
+}
+
+/* --------------------------------- */
+
+.btnsAdm {
+    padding: 2rem;
+}
+
+.btnsAdm button {
+    width: 5rem;
+    height: 3rem;
+    margin: 1rem;
+    background-color: rgb(81, 106, 60);
+    border: none;
+    cursor: pointer;
+}

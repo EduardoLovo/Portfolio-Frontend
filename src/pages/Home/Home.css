@@ -1,0 +1,114 @@
+.bodyHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    overflow: hidden;
+
+}
+
+.contentBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 999;
+}
+
+.bodyHome h1 {
+    font-size: 5rem;
+}
+
+
+.pic {
+    border-radius: 50%;
+    width: 25rem;
+    margin-bottom: 1rem;
+}
+
+.icones {
+    height: 7rem;
+    padding: 1rem;
+}
+
+.icones img {
+    width: 3rem;
+    margin: 2rem 0;
+    padding: 1rem;
+    transition: all .3s ease-in-out;
+}
+
+.icones img:hover {
+    opacity: .5;
+}
+
+
+.contentGif p {
+    text-align: center;
+}
+
+.imgGif {
+    width: 100%;
+}
+
+.imgGif img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 3px;
+    margin: 0 5rem .5rem 0;
+    float: right;
+}
+
+/* ========================================= */
+
+.gif {
+    width: 98%;
+}
+
+.typing {
+    font-family: 'Press Start 2P', cursive;
+    border-right: 10px solid rgb(33, 128, 52);
+    white-space: nowrap;
+    overflow: hidden;
+    float: right;
+}
+
+.animation {
+    animation: typing 1s steps(15) 2s normal both, blinker 600ms steps(40) infinite normal;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+        margin-right: 6.5rem;
+    }
+
+    to {
+        width: 13rem;
+        margin-right: 0;
+    }
+}
+
+@keyframes blinker {
+    from {
+        border-right-color: rgb(33, 128, 52);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
+/* ========================================= */
+
+@media only screen and (max-width: 720px) {
+    .bodyHome h1 {
+        font-size: 3rem;
+        justify-content: center;
+        /* height: 100vh; */
+    }
+
+    .pic {
+        width: 15rem;
+        margin: 2rem;
+    }
+}

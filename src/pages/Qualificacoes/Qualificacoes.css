@@ -1,0 +1,11 @@
+.bodyStack {
+    text-align: center;
+    overflow: hidden
+}
+
+.listSta {
+    background-color: rgba(0, 0, 0, 0.445);
+    width: 60%;
+    padding: 4rem 2rem;
+    margin: 0 auto;
+}

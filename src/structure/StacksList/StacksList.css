@@ -1,0 +1,39 @@
+.listStacks {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /* width: 90%; */
+    margin: 0 auto;
+}
+
+.stack {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.stackTitle {
+    width: 20%;
+}
+
+.stackTitle p {
+    font-size: 1.5vw;
+}
+
+.valorStack {
+    background-color: rgb(33, 128, 52);
+    width: 8vw;
+    /* height: 1.5rem; */
+    /* position: relative; */
+}
+
+.value {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    border: rgb(33, 128, 52) solid 1px;
+}
+
+.none {
+    visibility: hidden;
+}
