@@ -1,5 +1,5 @@
 export const Api = {
-    baseUrl: "https://portfolio-backend-eduardo.herokuapp.com/",
+    baseUrl: "https://portfolio-backend-eduardo.herokuapp.com",
 
     // Endpoint = Login
 
