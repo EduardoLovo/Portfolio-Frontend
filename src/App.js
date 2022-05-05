@@ -14,6 +14,13 @@ import { Projetos } from './pages/Projetos/Projetos';
 import { Qualificacoes } from './pages/Qualificacoes/Qualificacoes';
 
 function App() {
+
+  const PrivateRoute = ({ children, redirectTo }) => {
+    const isAuthenticated = localStorage.getItem("token") !== null;
+    console.log("isAuh:", isAuthenticated);
+    return isAuthenticated ? children : <Navigate to={redirectTo} />
+  };
+
   return (
     <div className="App">
       <Header />
@@ -30,6 +37,14 @@ function App() {
         <Route path="/add/projects" element={<AddProjetcs />} />
         <Route path="/login" element={<Login />} />
         <Route path="/curriculo" element={<Curriculo />} />
+        <Route
+          path='/adm'
+          element={
+            <PrivateRoute redirectTo='/login'>
+              <Adm />
+            </PrivateRoute>
+          }
+        />
       </Routes>
 
     </div>
